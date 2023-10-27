@@ -91,9 +91,9 @@ git status
 ```
 # Указание адреса origin репозитория в git (выполняется один раз в проекте)
 git remote set-url origin <url_репозитория>
-#Вместо url указывается, например, <https://github.com/darkennty/workspace.git> (скобочки убрать)
+# Вместо url указывается, например, <https://github.com/darkennty/workspace.git> (скобочки убрать)
 
-#Переключение на master-ветку
+# Переключение на master-ветку
 git checkout master
 # Отправка изменений в GitHub
 git push origin master
