@@ -1,0 +1,58 @@
+@startuml
+
+!define PARADIGM class
+
+PARADIGM Programming {
+}
+
+PARADIGM Imperative {
+}
+
+PARADIGM Declarative {
+}
+
+PARADIGM Structural {
+}
+
+PARADIGM NonStructural {
+}
+
+PARADIGM Procedural {
+}
+
+PARADIGM ObjectOriented {
+}
+
+PARADIGM ClassBased {
+}
+
+PARADIGM Prototypal {}
+
+PARADIGM Logical {
+}
+
+PARADIGM Functional {
+}
+
+PARADIGM Applicational {
+}
+
+PARADIGM Combinatorial {
+}
+
+
+Programming --|> Imperative
+Programming --|> Declarative
+Imperative --|> Structural
+Imperative --|> NonStructural
+Structural --|> Procedural
+Structural --|> ObjectOriented
+Structural ..> Functional
+ObjectOriented --|> ClassBased
+ObjectOriented --|> Prototypal
+Declarative --|> Logical
+Declarative --|> Functional
+Functional --|> Applicational
+Functional --|> Combinatorial
+
+@enduml
